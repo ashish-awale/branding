@@ -1,0 +1,41 @@
+body {
+    background-color: red;
+}
+
+/* CSS for Fanex text */
+.topText {
+    color: white;
+    text-align: center;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500!important;
+    /* font:  normal 900 32px/44px Alegreya SC; */
+    margin: 27px 0 26px;
+    color: #fff;
+
+}
+
+/* CSS for DIGITAL FAN ENGAGEMENT PARTNER text */
+
+.leftSideText {
+    color: white;
+    word-wrap:break-word;
+    padding: 10px;
+    width: 200px;
+}
+
+ /* CSS for tech mahindra text */
+.rightSideText {
+    color:white;
+    /* display: block !important; */
+    border-left-style:  solid;
+    width: 200px;
+    font-family: 'Eurostile' ;
+    font-weight: 1500px;
+   
+    font:  normal 900 22px/33px Helvetica  SC;
+
+
+}
