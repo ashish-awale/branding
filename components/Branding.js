@@ -1,4 +1,6 @@
-// Create component to display branding page
+// Create Branding.js component to display branding page
+
+import Image from 'next/image';
 
 const Branding = () => {
   return (
@@ -12,16 +14,17 @@ const Branding = () => {
           justifyContent: "center",
         }}
       >
+
         <div className="leftSideText">
-        <h3>  DIGITAL FAN <span>ENGAGEMENT</span> PARTNER</h3>
+          <h3>  DIGITAL FAN <span>ENGAGEMENT</span> PARTNER</h3>
         </div>
-        <div className="rightSideText">
-         <h3>Tech
-          <div>
-            Mahindra
-          </div>
-          </h3>
+
+        <div className='borderLine' />
+
+        <div className="logo">
+          <Image src="/Logo.png" alt="logo" width="160" height="60" />
         </div>
+
       </div>
     </>
   );
